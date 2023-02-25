@@ -1,1 +1,1 @@
-# EtsUC 2023
+# EtsUC 2023 team
