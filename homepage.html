@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.w3-quarter img{margin-bottom: -6px; cursor: pointer}
-.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
-</style>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
 <body class="w3-light-grey">
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-  <button class="w3-left w3-padding">Buy</button>
-  <button class="w3-left w3-padding">Sell</button>
+
+<header class="homeHeader w3-container w3-top w3-white w3-xlarge w3-padding-16">
+    <h1>Welcome to EtsUC! Buy below, or ...</h1>
+    <a href = "/sellbranch.html">   
+        <button class="w3-padding sellbutton">Sell here!</button>
+    </a>
+    <a href = "/Login_page.html">   
+        <button class="w3-padding sellbutton">Sign out</button>
+    </a>
 </header>
 
 <!-- !PAGE CONTENT! -->
@@ -26,29 +28,47 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- Photo grid -->
   <div class="w3-row w3-grayscale-min">
     <div class="w3-quarter">
-      <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300">
-      <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300">
-      <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300" onclick="onClick(this)" alt="Chemistry Textbook, lightly used $80">
+        <img src="https://lh3.googleusercontent.com/AOnkN_bJBSY1a-6C0AfD5vSNzmK31s-7W_XVxGBFgRasY_8OilfhwpjGLdZjkl4k2Paq8C8nk-eZHhlsr2L7OY-Vko5RN7dl9KPcxkzr1KgSdNUceoCNO8-SQcCvi-dmqPtHe_G0Jw=w500-h315-p-k" width = "320" height = "300" onclick="onClick(this)" alt="Vans(?), lightly used, $15-20">
+        <img src="https://lh3.googleusercontent.com/zPZ_gwSjKp-KwTD01Jc-3bvGJeWpBSLHS72itLWVuF4YuD2mnc0AGqaRAobZW_HJx1uyH5gPt5nqD50ZdfOkXGn9knkqOwQIXbqZVyOLllGX7b1G47Mxix8Jiyxxuu1deGeBUXAGwA=w380-h315-p-k" width = "320" height = "300" onclick="onClick(this)" alt="Seat Cover, used, $10">
    </div>
     
    <div class="w3-quarter">
-    <img src="https://lh3.googleusercontent.com/KQYeOcSj2wlqbiK_h-HlA1gwvGFEdXhNhedcH9BknVNnUFPxoQN9kUGsyiOprT2rUv5PDR0I-H-Q5M7td5L8dFeCf5Iypjlf2km2IjTzpBncjc7G_M2gUhz_s6Z6UB20VLomjaMSUA=w259-h194-p-k" width = "320" height = "300">
-    <img src="https://lh3.googleusercontent.com/KQYeOcSj2wlqbiK_h-HlA1gwvGFEdXhNhedcH9BknVNnUFPxoQN9kUGsyiOprT2rUv5PDR0I-H-Q5M7td5L8dFeCf5Iypjlf2km2IjTzpBncjc7G_M2gUhz_s6Z6UB20VLomjaMSUA=w259-h194-p-k" width = "320" height = "300">
-    <img src="https://lh3.googleusercontent.com/KQYeOcSj2wlqbiK_h-HlA1gwvGFEdXhNhedcH9BknVNnUFPxoQN9kUGsyiOprT2rUv5PDR0I-H-Q5M7td5L8dFeCf5Iypjlf2km2IjTzpBncjc7G_M2gUhz_s6Z6UB20VLomjaMSUA=w259-h194-p-k" width = "320" height = "300">
-</div>
+        <img src="https://lh3.googleusercontent.com/aMiuJqKQyxGRDpX-r9te_T6BoNumxbigYgIAhA1rAzn6HOkKFxEhEd864s2w_kjGpsVnkNRseWRkM93L89NvYpmzG0Xl1B-fa3u4awG64CW32pwT1jUh4VYn6SfWwCuRCp4AFPL-Kg=w394-h315-p-k" width = "320" height = "300" onclick="onClick(this)" alt="JanSport backpack, like new, $20">
+        <img src="https://lh3.googleusercontent.com/pEoyIvW8zyv_rXlPcXf9OvF6svRdEFmj_tKYKF_Unuy52ZxLyXjaTjFJz6jIX9HqyXTphvq5euj6N0eEjQKlIFBdMo6ajhro_KDEQLmJ9N-wiGp2460kYkrJ_o-JzGo34mdoYkvNjg=w375-h315-p-k" width = "320" height = "300" onclick="onClick(this)" alt="">
+        <img src="https://lh3.googleusercontent.com/KQYeOcSj2wlqbiK_h-HlA1gwvGFEdXhNhedcH9BknVNnUFPxoQN9kUGsyiOprT2rUv5PDR0I-H-Q5M7td5L8dFeCf5Iypjlf2km2IjTzpBncjc7G_M2gUhz_s6Z6UB20VLomjaMSUA=w259-h194-p-k" width = "320" height = "300">
+   </div>
     
     <div class="w3-quarter">
-    <img src="https://lh3.googleusercontent.com/3eAd0hBQanTpsnaj2oICffAE82EvN4_ffC3O3X_bSnUtQe_sciZBqPKZERRH9VcbCsouPeyWDD4JC8Vo-qPhaTGcQXieLA4V9D2l9s5SPuaI55794jCO3Em31GfOa-33qoRhggka1A=w2400?source=screenshot.guru"  width = "320" height = "300">
-    <img src="https://lh3.googleusercontent.com/3eAd0hBQanTpsnaj2oICffAE82EvN4_ffC3O3X_bSnUtQe_sciZBqPKZERRH9VcbCsouPeyWDD4JC8Vo-qPhaTGcQXieLA4V9D2l9s5SPuaI55794jCO3Em31GfOa-33qoRhggka1A=w2400?source=screenshot.guru" width = "320" height = "300">
-    <img src="https://lh3.googleusercontent.com/3eAd0hBQanTpsnaj2oICffAE82EvN4_ffC3O3X_bSnUtQe_sciZBqPKZERRH9VcbCsouPeyWDD4JC8Vo-qPhaTGcQXieLA4V9D2l9s5SPuaI55794jCO3Em31GfOa-33qoRhggka1A=w2400?source=screenshot.guru" width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/3yv_12uE3fTmIvaCvKI5FXrkJRgsgQoJqkFajQVKgTf47wd2RgQf9QTIoMjPIGEnfCDCd5r01kz4Gy-sNKFp8hXVQH-TBS3_SbCFPSlPettxBLh-N9U0f9c0COP4CA_cfA-PwxWUiA=w194-h259-p-k"  width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/gGyziipsy2xUuOZSnKJLHBthzN70dVJQos91VY4TSN8UTxK__61JFYaDbEib_RWuqozlJz0wAG2dRdV1tePL5A9i1Do-_hRF8h_mgexYYn5xgrOM4UvS2BBhMX15c4BcyZlMINUgMA=w194-h259-p-k" width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/3eAd0hBQanTpsnaj2oICffAE82EvN4_ffC3O3X_bSnUtQe_sciZBqPKZERRH9VcbCsouPeyWDD4JC8Vo-qPhaTGcQXieLA4V9D2l9s5SPuaI55794jCO3Em31GfOa-33qoRhggka1A=w2400?source=screenshot.guru" width = "320" height = "300">
     </div>
 
     <div class="w3-quarter">
-    <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300">
-    <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300">
-    <img src="https://lh3.googleusercontent.com/q_5lx_L8WEU-uRTIr0I8vIwL_CZSWnrtk8BmYE2RnGGVAQH3l8iOtn8y1oF5dDfd7pXi0geGqaRy8JixYzZ7sBYop1Yyhdq6XAAcicGhHbtrG6JiD4-PZJ1agxiUOVH74bVQmBv7lw=w600-h315-p-k" width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/g7Ft4FbIQw7lYeG3Md2iRuSzACovXKbJXHRasNfxLemQ248ifD2_D2ED1HcXrXAM_hTHahUERptwii3fkM4FI6P3pGoTikgyUHEDXhR9bER5EGU0-J2kVQ8_Jtm064utcu7Qg5LtBg=w460-h315-p-k" width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/x6tyGgK2T2n4hO1GifFycraa4C8sDKPOFGwoYx7GttgMfbDjnBvHpvBlNBycd2wtx9eIB4fkEX_xPL6YpJCcarZaJtFAY6R9yRQjLiyP_1VfB1GzxgLUhjbzFDAYIeqPoA2NdwH8FA=w500-h315-p-k" width = "320" height = "300">
+        <img src="https://lh3.googleusercontent.com/fW9PUd7It1M0S7XRzoO4IdXPlUSUJFFU_u_kfCh7RcNrUdeYvlQbV7ezGB8FEdabIGYGjB7f-OSe_tLDetkTrGKtr2oxCYJ3CR8ZTdzs0jb2kouCNMi63MWPzzxczcQ8BtbK4h6DvQ=s225-p-k" width = "320" height = "300">
     </div>
   </div>
+
+<!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+        </div>
+  </div>
+  <script>
+
+  // Modal Image Gallery
+function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
 
 </script>
 
