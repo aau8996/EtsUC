@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell Textbooks</title>
+	<style>
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Sell Textbooks</h1>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">UC Student Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="book-title">Book Title:</label>
+			<input type="text" id="book-title" name="book-title" required>
+			<label for="book-description">Book Description:</label>
+			<textarea id="book-description" name="book-description" required></textarea>
+			<label for="book-version">Book Version:</label>
+			<input type="text" id="book-version" name="book-version" required>
+			<label for="book-condition">Book Condition:</label>
+			<select id="book-condition" name="book-condition" required>
+				<option value="">Choose one</option>
+				<option value="New">New</option>
+				<option value="Like-new">Like new</option>
+				<option value="Good">Good</option>
+				<option value="Poor">Acceptable</option>
+			</select>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
